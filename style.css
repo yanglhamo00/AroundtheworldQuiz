@@ -1,0 +1,117 @@
+body{
+    background-image: url(round.gif);
+    background-color: lightblue;
+    color: rgb(17, 218, 71);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 0;
+    margin: 0;    
+    width:100vw;
+    height: 100vh;    
+}
+
+.panel{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question-container{
+
+    width: 80vw;
+    height: 10vh;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: xx-large;
+    text-align: center;
+      
+}
+.result{
+    margin: 10px;
+    padding: 5px;
+    width:80vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+      
+}
+.option-container{
+    display: flex;
+    justify-content: space-around; 
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 20vh;
+    background-color: transparent;   
+        
+}
+.option{    
+    padding: 10px;
+    width: 15vw;
+    height: 10vh;
+    font-size: larger;
+    background-color: whitesmoke;
+    border-radius: 25%;
+   
+}
+.option:hover{
+    background-color: goldenrod;
+}
+.navigation{
+    width: 80vw;
+    height: 10vh;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+}
+  
+.evaluate,.next{
+    width:30vw;
+    height: 8vh;
+    padding: 5px;
+    font-size: larger;
+    border-radius: 5px;
+}
+.evaluate{
+    
+    background-color: rgb(5, 143, 228);
+    border-radius: 5px;
+}
+.next{
+    color: rgb(29, 28, 28);
+    background-color: skyblue;
+    border-radius: 5px;
+}
+.question-container {
+    margin-bottom: 35px; 
+    color:rgb(25, 179, 5)
+}
+.restart-button {
+    background-color: blue;
+    color: rgb(20, 19, 19);
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.restart-button:hover {
+    background-color: darkblue;
+}
+
+.score-text {
+    color: white; /* Change text color to white */
+    font-size: 18px; /* Adjust font size */
+    margin-top: 20px; /* Add some top margin */
+}
+
+.score-text p {
+    margin: 5px 0; /* Adjust margin for individual answer paragraphs */
+    color: blue;
+}
